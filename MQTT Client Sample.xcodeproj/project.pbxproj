@@ -8,14 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		046F4C4F205EF81B00BB453F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFC4091F7080E900E53319 /* ViewController.swift */; };
-		5FE7157884D871F85D79D125 /* Pods_MQTT_Client_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE490015F9B94440B61437C6 /* Pods_MQTT_Client_Sample.framework */; };
 		9AEFC4081F7080E900E53319 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFC4071F7080E900E53319 /* AppDelegate.swift */; };
 		9AEFC40D1F7080E900E53319 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AEFC40B1F7080E900E53319 /* Main.storyboard */; };
 		9AEFC40F1F7080E900E53319 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AEFC40E1F7080E900E53319 /* Assets.xcassets */; };
 		9AEFC4121F7080E900E53319 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AEFC4101F7080E900E53319 /* LaunchScreen.storyboard */; };
+		FA83643E8DD42B5C6D56DB57 /* Pods_MQTT_Client_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6668327E2501177EA098CFC8 /* Pods_MQTT_Client_Sample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39F5FA0993A609D87937F6A3 /* Pods-MQTT Client Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MQTT Client Sample.debug.xcconfig"; path = "Target Support Files/Pods-MQTT Client Sample/Pods-MQTT Client Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		6668327E2501177EA098CFC8 /* Pods_MQTT_Client_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MQTT_Client_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AEFC4041F7080E900E53319 /* MQTT Client Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MQTT Client Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AEFC4071F7080E900E53319 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AEFC4091F7080E900E53319 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,9 +26,7 @@
 		9AEFC4111F7080E900E53319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AEFC4131F7080E900E53319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AEFC4B51F70921500E53319 /* MQTT Client Sample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MQTT Client Sample-Bridging-Header.h"; sourceTree = "<group>"; };
-		B531E178D4CF0412F7608891 /* Pods-MQTT Client Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MQTT Client Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MQTT Client Sample/Pods-MQTT Client Sample.debug.xcconfig"; sourceTree = "<group>"; };
-		CE490015F9B94440B61437C6 /* Pods_MQTT_Client_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MQTT_Client_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EECE9C2FEA1FF3CA05016AFB /* Pods-MQTT Client Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MQTT Client Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-MQTT Client Sample/Pods-MQTT Client Sample.release.xcconfig"; sourceTree = "<group>"; };
+		F52C8E03CC852E0CA9A09B6B /* Pods-MQTT Client Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MQTT Client Sample.release.xcconfig"; path = "Target Support Files/Pods-MQTT Client Sample/Pods-MQTT Client Sample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,19 +34,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FE7157884D871F85D79D125 /* Pods_MQTT_Client_Sample.framework in Frameworks */,
+				FA83643E8DD42B5C6D56DB57 /* Pods_MQTT_Client_Sample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3E7BB537B92E397AB037AE9E /* Frameworks */ = {
+		486C53F9799E24076A14D0A7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CE490015F9B94440B61437C6 /* Pods_MQTT_Client_Sample.framework */,
+				39F5FA0993A609D87937F6A3 /* Pods-MQTT Client Sample.debug.xcconfig */,
+				F52C8E03CC852E0CA9A09B6B /* Pods-MQTT Client Sample.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		9AEFC3FB1F7080E900E53319 = {
@@ -55,8 +57,8 @@
 				9AEFC4061F7080E900E53319 /* MQTT Client Sample */,
 				9AEFC4051F7080E900E53319 /* Products */,
 				9AEFC4B51F70921500E53319 /* MQTT Client Sample-Bridging-Header.h */,
-				A2CB50324648BB34D70EF39B /* Pods */,
-				3E7BB537B92E397AB037AE9E /* Frameworks */,
+				486C53F9799E24076A14D0A7 /* Pods */,
+				F1A5FBF36CD21F415C7311DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +83,12 @@
 			path = "MQTT Client Sample";
 			sourceTree = "<group>";
 		};
-		A2CB50324648BB34D70EF39B /* Pods */ = {
+		F1A5FBF36CD21F415C7311DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B531E178D4CF0412F7608891 /* Pods-MQTT Client Sample.debug.xcconfig */,
-				EECE9C2FEA1FF3CA05016AFB /* Pods-MQTT Client Sample.release.xcconfig */,
+				6668327E2501177EA098CFC8 /* Pods_MQTT_Client_Sample.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,12 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AEFC4161F7080E900E53319 /* Build configuration list for PBXNativeTarget "MQTT Client Sample" */;
 			buildPhases = (
-				BFAA78103DBF238EFE035967 /* [CP] Check Pods Manifest.lock */,
+				3C66BFE354E3828457A4E86B /* [CP] Check Pods Manifest.lock */,
 				9AEFC4001F7080E900E53319 /* Sources */,
 				9AEFC4011F7080E900E53319 /* Frameworks */,
 				9AEFC4021F7080E900E53319 /* Resources */,
-				3766AA2A3536535815D2F492 /* [CP] Embed Pods Frameworks */,
-				B190CE20EE4FA10D807AC7E2 /* [CP] Copy Pods Resources */,
+				C644DF88694F4EDA3E3F25F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,20 +120,20 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1300;
 				ORGANIZATIONNAME = "Mark Radbourne";
 				TargetAttributes = {
 					9AEFC4031F7080E900E53319 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = UBF8T346G9;
-						LastSwiftMigration = 0920;
+						DevelopmentTeam = S2Z4KL9666;
+						LastSwiftMigration = 1300;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 9AEFC3FF1F7080E900E53319 /* Build configuration list for PBXProject "MQTT Client Sample" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -163,61 +163,54 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3766AA2A3536535815D2F492 /* [CP] Embed Pods Frameworks */ = {
+		3C66BFE354E3828457A4E86B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MQTT Client Sample/Pods-MQTT Client Sample-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AzureIoTHubClient/AzureIoTHubClient.framework",
-				"${BUILT_PRODUCTS_DIR}/AzureIoTUtility/AzureIoTUtility.framework",
-				"${BUILT_PRODUCTS_DIR}/AzureIoTuAmqp/AzureIoTuAmqp.framework",
-				"${BUILT_PRODUCTS_DIR}/AzureIoTuMqtt/AzureIoTuMqtt.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AzureIoTHubClient.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AzureIoTUtility.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AzureIoTuAmqp.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AzureIoTuMqtt.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MQTT Client Sample/Pods-MQTT Client Sample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B190CE20EE4FA10D807AC7E2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MQTT Client Sample/Pods-MQTT Client Sample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BFAA78103DBF238EFE035967 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-MQTT Client Sample-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C644DF88694F4EDA3E3F25F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MQTT Client Sample/Pods-MQTT Client Sample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AzureIoTHubClient/AzureIoTHubClient.framework",
+				"${BUILT_PRODUCTS_DIR}/AzureIoTHubServiceClient/AzureIoTHubServiceClient.framework",
+				"${BUILT_PRODUCTS_DIR}/AzureIoTUtility/AzureIoTUtility.framework",
+				"${BUILT_PRODUCTS_DIR}/AzureIoTuAmqp/AzureIoTuAmqp.framework",
+				"${BUILT_PRODUCTS_DIR}/AzureIoTuMqtt/AzureIoTuMqtt.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AzureIoTHubClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AzureIoTHubServiceClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AzureIoTUtility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AzureIoTuAmqp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AzureIoTuMqtt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MQTT Client Sample/Pods-MQTT Client Sample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -258,6 +251,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -268,6 +262,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -275,8 +270,10 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -302,7 +299,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LIBRARY_SEARCH_PATHS = "";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -318,6 +315,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -328,6 +326,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -335,8 +334,10 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -356,7 +357,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LIBRARY_SEARCH_PATHS = "";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -370,39 +371,39 @@
 		};
 		9AEFC4171F7080E900E53319 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B531E178D4CF0412F7608891 /* Pods-MQTT Client Sample.debug.xcconfig */;
+			baseConfigurationReference = 39F5FA0993A609D87937F6A3 /* Pods-MQTT Client Sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = UBF8T346G9;
+				DEVELOPMENT_TEAM = S2Z4KL9666;
 				INFOPLIST_FILE = "MQTT Client Sample/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Microsoft.MQTT-Client-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "MQTT Client Sample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64";
 			};
 			name = Debug;
 		};
 		9AEFC4181F7080E900E53319 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EECE9C2FEA1FF3CA05016AFB /* Pods-MQTT Client Sample.release.xcconfig */;
+			baseConfigurationReference = F52C8E03CC852E0CA9A09B6B /* Pods-MQTT Client Sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = UBF8T346G9;
+				DEVELOPMENT_TEAM = S2Z4KL9666;
 				INFOPLIST_FILE = "MQTT Client Sample/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Microsoft.MQTT-Client-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "MQTT Client Sample-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
